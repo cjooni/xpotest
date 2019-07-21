@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f61c5622-5764-41d9-a5ba-6214c33f49fa" namespace="xpotest.ORMDataModel2" dataBaseShemaInfo="H4sIAAAAAAAEAMVWTW+bQBC9V+p/QJxSKcCCjcERdlTbaWS1jaI4qXqLFhhsFFjcXfBHf32HD2OwnTTJob3Ymjcz++bNDCzO5SaOpBVwESZsIOsqkS+HHz84IypgliaczmHKgkTCKCYuNiIcyIs0XV5o2nq9VtcdNeFzzSBE135+/zbzFhBTJWQipcwDuc7y/54lI6skOffUjUDklIW9QxrADpJuaAwDOWZzTvSUELn2Y8QtD2PKt19hexQmTcUDC39lCKY8g2YaJo6TKIuZaIEIi5SHbD7MT3n0fEer7FaqdpzraPtCmvApFmcyKmGp/LvfLrHEWUEkN1QgvyzNwt9omrkYPLpSgsZNFkV5cwZyQCOB0GSUn1NmewvKqZcCPzM/yZL2PnYW1+zk9YzSCpuAR52Z5ID6ZNumzIcNHPWngA8H+rh8gu3LU312rq+b7Okic7QqqSXnuHbnS8IhnDOclGhod7Rij/f2FSvsvH5Hq4zaOQlFDjwsfZrCsOg18rfAOvY6C/2pP3QtKzB06iukb3hKFzo9hVLLUgjYYOke9XqG52hVcJ1cKW09cc/C6MjHUTr3TWxgrdiXFL5VZVNp3/cN2+p3lY6lg9LVIVBc17QVahHf1Htmr2MaR0obY323WBb/e7Fg9l3b8g2l29c7+ENxrECI4tm2Ybj9nh68QewptFrMGqnsfYiT3wzg3/LEK8BqqZ0f5TUynMDqarPkIIQ6oSlVV3pf1c+lyj3ILbWrknNpnEVpxmHAIEs5jc6l28yNQg8flPvkCdjAtW1ft8yubxECqNTRdhQF3ziiQoDIB3CX1d11PvtYGgThpn7YcmiWBS3oDuJkBYeBJXoYO8bbcPjA8HXG5oD7Xdhla07VgNdPsgSehv+5tmfKcK6BAcf1GidxDCwV1Y4ewa3gCQh8hwH/EuIqHGS0fUXa7l4YwYKuwoTjUgQUx43Py6EHPze0g++N4R8i+gVFmAgAAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="localhost" createdInVersion="19.1.4.0" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="65e99e12-4bae-4c3e-b10e-5e899ed612ed">
+      <comment Id="cd090526-78ac-400d-8add-c9140124283f" text="The 'mngr01t00_pkey' index is ignored, because 'mngr_cd' is a key" name="mngr01t00Comment">
+        <subjects>
+          <commentReferencesSubjects Id="b8e9f61c-ae48-4fd2-b5ed-30c7dc52b847">
+            <xpObjectMoniker Id="b77f21ad-092c-4e36-aa77-0e8e71cac62c" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="0155403b-e929-4651-87e1-b38f6f73ceb8">
+      <xpObject Id="b77f21ad-092c-4e36-aa77-0e8e71cac62c" name="mngr01t00" baseClass="XPObject" persistent="mngr01t00" virtualName="mngr01t00">
+        <fields>
+          <generalXpObjectHasFields Id="dfc4a222-1064-48d2-8006-ef5253ad3a52">
+            <field Id="9dd28794-371e-41ef-bb58-a70d51656352" name="mngr_cd" key="true" persistent="mngr_cd" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="5" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="56bd4e82-6e45-4103-a55d-808062144753">
+            <field Id="e59b87d2-4913-49a6-ae00-c8822b961f52" name="mngr_nm" persistent="mngr_nm" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
